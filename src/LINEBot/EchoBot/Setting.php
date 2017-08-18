@@ -32,11 +32,11 @@ class Setting
                 ],
 
                 'bot' => [
-                    'channelToken' => getenv('LINEBOT_CHANNEL_TOKEN') ?: '1530651990',
-                    'channelSecret' => getenv('LINEBOT_CHANNEL_SECRET') ?: '745ee1453eb7d3eabce80b5e2cef56c9',
+                    'channelToken' => 'fXvINIMjzNhP3s7bshM5cctelFI6HcwpaYvhHXmtYW8y1arOzYXfNUgnimncInt8ny3DfgmikvrepJdN87csrXvqpDGujHKKYVbybzF+zlYpeevB0b/AEJg2mAiEvIZjjzT7U6hCxGkFeQbg7gNBCQdB04t89/1O/w1cDnyilFU=',
+                    'channelSecret' => '745ee1453eb7d3eabce80b5e2cef56c9',
                 ],
 
-                'apiEndpointBase' => getenv('http://0.0.0.0:8085/'),
+                'apiEndpointBase' => 'https://line.gear.host',
             ],
         ];
     }
