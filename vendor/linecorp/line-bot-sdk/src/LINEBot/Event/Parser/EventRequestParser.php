@@ -66,7 +66,6 @@ class EventRequestParser
             throw new InvalidSignatureException('Invalid signature has given');
         }
 
-        die('asdf');
         $events = [];
 
         $parsedReq = json_decode($body, true);

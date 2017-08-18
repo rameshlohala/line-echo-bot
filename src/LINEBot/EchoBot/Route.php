@@ -35,6 +35,9 @@ class Route
             $logger = $this->logger;
 
             $signature = $req->getHeader(HTTPHeader::LINE_SIGNATURE);
+
+            return $res->withStatus(400, $signature);
+
             if (empty($signature)) {
                 return $res->withStatus(400, 'Bad Request');
             }
