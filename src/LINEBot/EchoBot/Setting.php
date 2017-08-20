@@ -36,7 +36,7 @@ class Setting
                     'channelSecret' => '745ee1453eb7d3eabce80b5e2cef56c9',
                 ],
 
-                'apiEndpointBase' => 'https://line.gear.host',
+                'apiEndpointBase' => 'https://line.gear.host/public/index.php',
             ],
         ];
     }
